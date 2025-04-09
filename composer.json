@@ -1,0 +1,24 @@
+{
+    "name": "vladyslav-dyba/server-clock",
+    "description": "Provide correct server time based on its external IP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "VladyslavDyba\\ServerClock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vlad",
+            "email": "vs.5991748@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/clock": "dev-master",
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.5.x-dev"
+    }
+}
