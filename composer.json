@@ -13,7 +13,7 @@
             "email": "vs.5991748@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "psr/clock": "dev-master",
         "guzzlehttp/guzzle": "8.0.x-dev"
