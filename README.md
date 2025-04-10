@@ -46,12 +46,14 @@ To get local time for specific IP
 
 ```bash
   php ./bin/console.php 8.8.8.8
+  php ./vendor/vladyslav-dyba/server-clock/bin/console.php 8.8.8.8
 ```
 
 To get local time for external server IP
 
 ```bash
   php ./bin/console.php
+  php ./vendor/vladyslav-dyba/server-clock/bin/console.php
 ```
 
 ## Usage
