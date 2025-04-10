@@ -15,6 +15,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": "^8.1",
         "psr/clock": "dev-master",
         "guzzlehttp/guzzle": "8.0.x-dev"
     },
