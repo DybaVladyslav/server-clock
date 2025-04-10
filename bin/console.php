@@ -1,6 +1,6 @@
 <?php
 
-require(__DIR__ . '/../vendor/autoload.php');
+require(getcwd() . '/vendor/autoload.php');
 
 use VladyslavDyba\ServerClock\components\IpSource\CustomIpSource;
 use VladyslavDyba\ServerClock\components\IpSource\DataProviders\IpInfo\IpInfoDataProviderFactory;
